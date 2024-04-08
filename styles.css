@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 127px;
+    background-image: url("assets/brick-wall-dark.png");
+    background-size: 200px;
+    overflow: auto;
+}
+
+:root {
+    --neutral-black: #0D0D0D;
+    --neutral-white: #fff;
+    --blue: rgba(73, 148, 188, 0.7);
+    --blue-light: rgba(216, 241, 255, 0.7);
+}
+
+.links {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+*, *::before, *::after {
+    font-family: "PP Agrandir";
+    font-weight: bolder;
+}
+
+
+
+h1, .h1 {
+    font-size: 118px;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+}
+
+h2, .h2 {
+    font-size: 68px;
+}
+
+@media only screen and (max-width: 1000px) {
+    h2, .h2 {
+        font-size: 32px;
+    }
+}
+
+h3, .h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+    h3, .h3 {
+        font-size: 24px;
+    }
+}
+
+p, .p{
+    font-size: 20px;
+    font-style: "PP Neue Montreal";
+    font-weight: light;
+}
+
+.button {
+    padding: 15px 0; /* Adjust padding as needed */
+    width: 293px;
+    background-color: var(--blue);
+    text-align: center;
+    font-size: 20px;
+    font-weight: light;
+    border-radius: 20px;
+    color: var(--neutral-white);
+    line-height: 45px; /* Adjust line-height to match button height */
+}
+
+nav {
+    font-family: "PP Neue Montreal";
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 80px);
+    padding: 16px 20px;
+    background-color: var(--blue-light);
+    border-radius: 20px;
+    margin: 20px 20px 0px 20px;
+    position: fixed;
+    top: 0;
+    
+}
+
+.nav-normal {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-bar {
+    list-style: none;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 40px;
+    height: calc(60vh);
+}
+
+.expanded-nav {
+    display: none;
+    flex-direction: column;
+}
+
+.mobile-bar > a {
+    color: var(--neutral-black);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    display: none;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+    border-radius: 10px;
+  }
+.box {
+    height: 1000px;
+    width: 100px;
+}
+
+.logo {
+    padding-top: 20px;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        margin: 12px 12px 12px 12px;
+        display: flex-row;
+        justify-content: center;
+        width: calc(100% - 65px);
+    }
+
+    .links  {
+        display: none;
+    }
+    
+    .button {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+        padding-top: 4px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .button-visible {
+        padding: 15px 0; /* Adjust padding as needed */
+        width: 293px;
+        background-color: var(--blue);
+        text-align: center;
+        font-size: 20px;
+        font-weight: light;
+        border-radius: 20px;
+        color: var(--neutral-white);
+        line-height: 45px; /* Adjust line-height to match button height */
+        margin: auto;
+    }
+
+    .nav-normal {
+        display: block;
+    }
+}
+
+/* footer */
+
+footer {
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: var(--neutral-black);
+    padding: 0px 20px 0px 20px
+}
+
+.center {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    gap: 30px;
+    color: var(--medium-grey);
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    background-color: var;
+}
+
+.social-media {
+    display: flexbox;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.skyline {
+    width: 100px;
+}
