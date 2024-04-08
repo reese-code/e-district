@@ -2,9 +2,10 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 127px;
-    background-image: url("assets/brick-wall-dark.png");
-    background-size: 200px;
+    background-image: url("assets/bg-texture.png");
+    background-size: 300px;
     overflow: auto;
+
 }
 
 :root {
