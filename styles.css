@@ -5,7 +5,6 @@ body {
     background-image: url("assets/bg-texture.png");
     background-size: 300px;
     overflow: auto;
-
 }
 
 :root {
@@ -13,6 +12,11 @@ body {
     --neutral-white: #fff;
     --blue: rgba(73, 148, 188, 0.7);
     --blue-light: rgba(216, 241, 255, 0.7);
+}
+
+a {
+    text-decoration: none;
+    color: var(--neutral-black);
 }
 
 .links {
@@ -197,7 +201,7 @@ nav {
 /* footer */
 
 footer {
-    
+    justify-content: flex;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: var(--neutral-black);
@@ -208,18 +212,25 @@ footer {
     margin: auto;
     width: fit-content;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centering properties */
 }
 
 .details {
-    gap: 30px;
+    width:fit-content;
+    gap: 0px;
     color: var(--medium-grey);
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    margin-top: 50px
 }
 
 .social {
     display: flex;
     justify-content: space-between;
-    background-color: var;
+    padding-bottom: 40px;
+    margin-top: 50px; /* Add margin-top to separate from links */
 }
 
 .social-media {
@@ -230,5 +241,51 @@ footer {
 }
 
 .skyline {
-    width: 100px;
+    max-width: 100%;
+}
+
+.skyline-img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.center-links {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .center {
+        justify-content: flex-start; /* Align everything to the left */
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        clear: both;
+        
+    }
+
+    .center-links > .links {
+        display: flex;
+        justify-content: center; /* Center the links horizontally */
+    }
+
+    .social {
+        flex-direction: column;
+        float: left;
+        clear: both;
+        
+    }
+
+    .details {
+        flex-direction: column;
+        margin-top: 20px; /* Added margin-top */
+        text-align: left; /* Ensure text alignment is left */
+        margin-left: 0;
+        align-items: baseline;
+    }
 }
