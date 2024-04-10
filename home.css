@@ -1,3 +1,5 @@
+/* Hero */
+
 .hero {
     margin: 0px 30px 0px 30px;
     padding-top: 60px;
@@ -38,5 +40,38 @@
 
     .button {
         margin: auto;
+    }
+}
+
+/* Hero End */
+
+/* Perks */
+
+.perk-all {
+    width: 100%;
+    padding: 40px 0px 40px 0px
+}
+
+.perks {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0px 30px
+}
+
+.perk h2 {
+    margin-bottom: 0px
+}
+
+.perk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .perks {
+        flex-wrap: wrap;
+        margin: 0px 24px 0px 24px
     }
 }

@@ -3,8 +3,8 @@
 :root {
     --neutral-black: #0D0D0D;
     --neutral-white: #fff;
-    --blue: rgba(73, 148, 188, 0.7);
-    --blue-light: rgba(216, 241, 255, 0.7);
+    --blue: rgba(73, 148, 188, 1);
+    --blue-light: rgba(216, 241, 255, 1);
 }
 
 
@@ -22,6 +22,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "PP Agrandir";
   line-height: 83%;
+  text-transform: uppercase;
 }
 
 p, li, a, body, div {
@@ -37,7 +38,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 68px;
+  font-size: 60px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -57,7 +58,7 @@ h3, .h3{
 }
 
 p, .p{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* END TYPOGRAPHY
