@@ -3,8 +3,8 @@
 :root {
     --neutral-black: #0D0D0D;
     --neutral-white: #fff;
-    --blue: rgba(73, 148, 188, 0.7);
-    --blue-light: rgba(216, 241, 255, 0.7);
+    --blue: rgba(73, 148, 188);
+    --blue-light: rgba(216, 241, 255);
 }
 
 
@@ -62,6 +62,12 @@ p, .p{
 
 /* END TYPOGRAPHY
 ================ */
+
+/* NAV
+================ */
+
+/* END NAV 
+================= */
 
 body {
   margin: 0;
@@ -131,12 +137,12 @@ nav {
 
 .mobile-bar {
     list-style: none;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
     text-align: center;
     width: fit-content;
     margin: auto;
-    padding: 40px;
+    padding: .5em;
     height: calc(60vh);
 }
 
@@ -229,6 +235,10 @@ nav {
     .disapear {
         display: none;
     }
+}
+
+.mobile-bar a div {
+  font-family: 'PP Agrandir';
 }
 
 /* footer */
