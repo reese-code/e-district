@@ -5,6 +5,7 @@ body {
     background-image: url("assets/bg-texture.png");
     background-size: 300px;
     overflow: auto;
+    font-weight: "Grand Heavy";
 }
 
 :root {
@@ -173,9 +174,7 @@ nav {
         display: none;
     }
     
-    .button {
-        display: none;
-    }
+    
 
     .logo {
         display: block;
@@ -208,6 +207,10 @@ nav {
     .nav-normal {
         display: block;
     }
+
+    .disapear {
+        display: none;
+    }
 }
 
 /* footer */
@@ -235,7 +238,8 @@ footer {
     margin: auto;
     text-align: center;
     display: flex;
-    margin-top: 50px
+    margin-top: 50px;
+    gap: 30px
 }
 
 .social {
@@ -299,5 +303,6 @@ footer {
         text-align: left; /* Ensure text alignment is left */
         margin-left: 0;
         align-items: baseline;
+        gap: 0px;
     }
 }
