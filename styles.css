@@ -1,12 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    padding-top: 127px;
-    background-image: url("assets/bg-texture.png");
-    background-size: 300px;
-    overflow: auto;
-    font-weight: "Grand Heavy";
-}
+
 
 :root {
     --neutral-black: #0D0D0D;
@@ -14,6 +6,74 @@ body {
     --blue: rgba(73, 148, 188, 0.7);
     --blue-light: rgba(216, 241, 255, 0.7);
 }
+
+
+/* TYPOGRAPHY
+================ */
+@font-face {
+  font-family: "PP Agrandir";
+  src: url("assets/PPAgrandir-GrandHeavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("assets/NeueMontreal-Regular.otf") format("opentype");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PP Agrandir";
+  line-height: 83%;
+}
+
+p, li, a, body, div {
+  font-family: "Neue Montreal";
+}
+
+h1, .h1 {
+  font-size: 118px;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+}
+
+h2, .h2 {
+  font-size: 68px;
+}
+
+@media only screen and (max-width: 1000px) {
+  h2, .h2 {
+      font-size: 32px;
+  }
+}
+
+h3, .h3{
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 1000px) {
+  h3, .h3 {
+      font-size: 24px;
+  }
+}
+
+p, .p{
+  font-size: 20px;
+}
+
+/* END TYPOGRAPHY
+================ */
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 127px;
+  background-image: url("assets/bg-texture.png");
+  background-size: 300px;
+  overflow: auto;
+  color: var(--neutral-black);
+}
+
+
 
 a {
     text-decoration: none;
@@ -30,48 +90,7 @@ a {
     text-transform: capitalize;
 }
 
-*, *::before, *::after {
-    font-family: "PP Agrandir";
-    font-weight: bolder;
-}
 
-
-
-h1, .h1 {
-    font-size: 118px;
-}
-
-@media only screen and (max-width: 1000px) {
-    
-}
-
-h2, .h2 {
-    font-size: 68px;
-}
-
-@media only screen and (max-width: 1000px) {
-    h2, .h2 {
-        font-size: 32px;
-    }
-}
-
-h3, .h3{
-    font-size: 36px;
-    font-weight: bold;
-}
-
-
-@media only screen and (max-width: 1000px) {
-    h3, .h3 {
-        font-size: 24px;
-    }
-}
-
-p, .p{
-    font-size: 20px;
-    font-style: "PP Neue Montreal";
-    font-weight: light;
-}
 
 .button {
     padding: 15px 0; /* Adjust padding as needed */
@@ -92,7 +111,6 @@ p, .p{
 }
 
 nav {
-    font-family: "PP Neue Montreal";
     display: flex;
     flex-direction: column;
     width: calc(100% - 80px);
