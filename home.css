@@ -10,12 +10,14 @@
     font-size: 117px;
     font-family: "PP Agrandir";
     text-transform: uppercase;
+    margin: 0px;
 }
 
 .left-hero {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 50px
 }
 
 .hallway {
@@ -75,3 +77,53 @@
         margin: 0px 24px 0px 24px
     }
 }
+
+/* Perks end */
+
+/* why e-district */
+
+.container-district {
+    background-color: var(--blue-light);
+    border-radius: 20px;
+    border-top-left-radius: 270px;
+    margin: 0px 40px 0px 40px;
+    padding: 88px 37px 88px 37px;
+}
+
+.container-district h2 {
+    text-align: center;
+}
+
+.content-side {
+    display: flex;
+    gap: 50px;
+}
+
+#conference-room1 {
+    border-radius: 20px;
+    height: auto;
+    max-width: 50%;
+}
+
+.left-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-district {
+        margin: 12px;
+        border-top-left-radius: 100px;
+    }
+
+    .content-side {
+        flex-direction: column;
+    }
+
+    #conference-room1 {
+        max-width: 100%
+    }
+}
+
+/* why e-district end*/
