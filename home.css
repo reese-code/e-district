@@ -167,3 +167,26 @@
 }
 
 /* our mission end */
+
+/* advantage */
+
+.flip {
+    flex-direction: row-reverse;
+}
+
+.reverse-radius {
+    border-radius: 20px;
+    border-top-right-radius: 270px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .flip {
+        flex-direction: column;
+    }
+
+    .reverse-radius {
+        border-top-right-radius: 100px;
+    }
+}
+
+/* advantage end */
