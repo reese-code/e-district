@@ -127,3 +127,43 @@
 }
 
 /* why e-district end*/
+
+/* our mission */
+
+.mission-container {
+    margin: 88px 37px 88px 37px;
+    display: flex;
+}
+
+.content-mission {
+    text-align: center;
+    padding: 40px;
+    border: 7px solid var(--blue);
+    border-bottom: none;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.button-container {
+    display: flex;
+    margin-top: auto;
+    padding: 0px 50px 40px 50px;
+    border-bottom: 7px solid var(--blue);
+}
+
+@media only screen and (max-width: 1000px) {
+    .mission-container {
+        flex-direction: column;
+        margin: 24px 12px;
+        gap: 12px;
+    }
+
+    .content-mission {
+        padding: 18px;
+    }
+
+    .button-container {
+        border-bottom: none;
+    }
+}
+
+/* our mission end */
