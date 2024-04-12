@@ -190,3 +190,29 @@
 }
 
 /* advantage end */
+
+/* image slider */
+
+/* image slider end */
+
+/* quotes */
+
+.quote-container {
+    margin: 88px 37px 88px 37px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dot-quote {
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--neutral-black);
+    border-radius: 100%;
+}
+
+.dot-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
