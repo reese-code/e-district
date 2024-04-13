@@ -30,7 +30,7 @@ p, li, a, body, div {
 }
 
 h1, .h1 {
-  font-size: 200px;
+  font-size: 170px;
 }
 
 @media only screen and (max-width: 1000px) {
