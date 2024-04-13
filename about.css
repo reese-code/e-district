@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.content {
+    margin: 0px 40px;
+}
+
+.box-container {
+    padding: 40px 40px 10px 40px;
+    justify-content: center;
+    text-align: center;
+    border: 7px solid var(--blue);
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: none;
+    margin-top: 40px;
+}
+
+.content-container {
+    display: flex;
+    gap: 20px;
+    height: fit-content;
+    margin: 60px 0px
+}
+
+.content-container img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    border-bottom-left-radius: 270px;
+}
+
+.info-container {
+    flex: 1; /* This will allow the container to grow and fill the available space */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue-light);
+    padding: 40px;
+    border-radius: 20px 270px 20px 20px;
+    height: auto;
+}
+
+.content-info {
+    margin-top: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content {
+        margin: 12px;
+    }
+
+    .content-container {
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .content-container img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .info-container {
+        border-radius: 20px 20px 100px 20px;
+    }
+}

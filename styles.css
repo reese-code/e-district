@@ -19,7 +19,7 @@
   src: url("assets/NeueMontreal-Regular.otf") format("opentype");
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "PP Agrandir";
   line-height: 83%;
   text-transform: uppercase;
@@ -30,11 +30,13 @@ p, li, a, body, div {
 }
 
 h1, .h1 {
-  font-size: 118px;
+  font-size: 200px;
 }
 
 @media only screen and (max-width: 1000px) {
-  
+  h1, .h1 {
+    font-size: 50px;
+  }
 }
 
 h2, .h2 {
