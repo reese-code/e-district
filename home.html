@@ -7,6 +7,11 @@
     <title>Home</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="home.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 </head>
 <body>
     <nav id="nav">
@@ -138,19 +143,46 @@
 
     <!-- quotes -->
 
-    <div class="quote-container">
-        <img class="quote-icon" src="assets/icon-quote.png" alt="quote icon" />
-        <div class="quote-detail">
-            <h3>I think the thing that was different was their cooperation as far as, being able to create a custom space that would work for my needs in my business.</h3>
-            <p>steven f.</p>
+    <div class="quote-slider">
+      <div>
+        <div class="slide">
+          <img class="quote-icon" src="assets/icon-quote.png" alt="quote icon" />
+          <h3>I think the thing that was different was their cooperation as far as, being able to create a custom space that would work for my needs in my business.</h3>
+          <p>Steven F.</p>
         </div>
-        <div class="dot-container">
-            <div class="dot-quote"></div>
-            <div class="dot-quote"></div>
-            <div class="dot-quote"></div>
-            <div class="dot-quote"></div>
+      </div>
+      <div>
+        <div class="slide">
+          <img class="quote-icon" src="assets/icon-quote.png" alt="quote icon" />
+          <h3>Instead of just collecting money from tenants, I think that they’re really engaging, and they stay kind of involved and its got a community feel.</h3>
+          <p>Kasey T.</p>
         </div>
-    </div>
+      </div>
+      <div>
+        <div class="slide">
+          <img class="quote-icon" src="assets/icon-quote.png" alt="quote icon" />
+          <h3>You cannot beat this location. We got the billboard and that has helped us. We did a lot of advertising on that 
+              and that really increased business for us.</h3>
+          <p>Tony</p>
+        </div>
+      </div>
+  </div>
+
+  <script>
+    $(document).ready(function(){
+        $('.quote-slider').slick({
+            dots: true,              // Enable navigation dots
+            infinite: true,          // Infinite looping
+            speed: 500,              // Speed of the transition
+            slidesToShow: 1,         // Number of slides to show at a time
+            adaptiveHeight: true,    // Adjust slide height automatically
+            autoplay: true,          // Enable autoplay mode
+            autoplaySpeed: 2000      // Autoplay speed in milliseconds
+        });
+    });
+    </script>
+    
+  
 
     <!-- place content above -->
     <div class="skyline"><img class="skyline-img" src="assets/skyline.png"></div>

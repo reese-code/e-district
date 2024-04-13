@@ -343,3 +343,33 @@ footer {
         gap: 0px;
     }
 }
+
+/* SLIDER 
+============= */
+
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.slide h3 {
+  text-align: center;
+  max-width: 800px;
+}
+
+
+.slide {
+  padding: 2em 4em;
+}
+
+
+/* slick-theme.css | https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css */
+
+.slick-dots li button::before {
+  /* font-size: 6px; */
+  font-size: 12px !important;
+}
