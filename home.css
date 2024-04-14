@@ -110,7 +110,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    #
+    .content-side {
+        gap: 32px;
+    }
 }
 
 .left-cont {
@@ -127,10 +129,15 @@
 
     .content-side {
         flex-direction: column;
+        gap: 32
     }
 
     #conference-room1 {
         max-width: 100%
+    }
+
+    .left-cont {
+        gap: 12px;
     }
 }
 
