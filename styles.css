@@ -132,7 +132,12 @@ nav {
     position: fixed;
     top: 0;
     z-index: 999;
-    
+}
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        margin: 1em 12px;
+     }
 }
 
 .nav-normal {
@@ -199,7 +204,7 @@ nav {
         margin: 12px 12px 12px 12px;
         display: flex-row;
         justify-content: center;
-        width: calc(100% - 65px);
+        width: calc(100% -);
     }
 
     .links  {
@@ -324,6 +329,7 @@ footer {
     .center-links > .links {
         display: flex;
         justify-content: center; /* Center the links horizontally */
+        gap: 30px;
     }
 
     .social {
