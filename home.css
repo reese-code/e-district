@@ -49,6 +49,10 @@
 
 /* Perks */
 
+.skyline{
+    text-align: center;
+}
+
 .perk-all {
     width: 100%;
     padding: 40px 0px 40px 0px
@@ -87,7 +91,7 @@
     border-radius: 20px;
     border-top-left-radius: 270px;
     margin: 0px 40px 0px 40px;
-    padding: 88px 37px 88px 37px;
+    padding: 90px 40px 90px 40px;
 }
 
 .container-district h2 {
@@ -103,6 +107,10 @@
     border-radius: 20px;
     height: auto;
     max-width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #
 }
 
 .left-cont {
@@ -131,7 +139,7 @@
 /* our mission */
 
 .mission-container {
-    margin: 88px 37px 88px 37px;
+    margin: 90px 40px 90px 40px;
     display: flex;
 }
 
@@ -198,7 +206,7 @@
 /* quotes */
 
 .quote-container {
-    margin: 88px 37px 88px 37px;
+    margin: 90px 40px 90px 40px;
     justify-content: center;
     text-align: center;
     text-transform: uppercase;

@@ -46,3 +46,7 @@ p{ margin-top: 0px;}
         flex-direction: column;
     }
 }
+
+.scale-down{
+    width: 50%;
+}
