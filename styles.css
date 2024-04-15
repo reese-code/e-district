@@ -334,6 +334,10 @@ footer {
         gap: 20px;
     }
 
+    .center-links {
+      gap: 20px;
+    }
+
     .social {
         flex-direction: column;
         float: left;
