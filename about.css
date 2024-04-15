@@ -10,7 +10,7 @@ h1 {
 }
 
 .box-container {
-    padding: 40px 40px 10px 40px;
+    padding: 30px 30px 10px 30px;
     justify-content: center;
     text-align: center;
     border: 7px solid var(--blue);
