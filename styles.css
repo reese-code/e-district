@@ -261,7 +261,7 @@ footer {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: var(--neutral-black);
-    padding: 0px 20px 0px 20px
+    margin: 20px;
 }
 
 .center {
@@ -323,13 +323,13 @@ footer {
         display: flex;
         flex-direction: column;
         clear: both;
-        
+        margin: 12px;
     }
 
     .center-links .links {
         display: flex;
         justify-content: space-between; /* Center the links horizontally */
-        
+        font-size: 16px;
     }
 
     .social {
