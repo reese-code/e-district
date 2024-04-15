@@ -88,6 +88,13 @@ body {
   margin-right: 40px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .body-width{
+        margin-left: 12px;
+    margin-right: 12px;
+    }
+}
+
 a {
     text-decoration: none;
     color: var(--neutral-black);
@@ -123,21 +130,16 @@ a {
 
 nav {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    width: calc(100% - 120px);
+    width: calc(100% - 120px); /* Full width */
     padding: 16px 20px;
     background-color: var(--blue-light);
     border-radius: 20px;
-   margin: 1em 40px;
+    margin: 1em 40px; /* Center horizontally */
     position: fixed;
     top: 0;
     z-index: 999;
-}
-
-@media only screen and (max-width: 1000px) {
-    nav {
-        margin: 1em 12px;
-     }
 }
 
 .nav-normal {
@@ -201,10 +203,8 @@ nav {
 
 @media only screen and (max-width: 1000px) {
     nav {
-        margin: 12px 12px 12px 12px;
-        display: flex-row;
-        justify-content: center;
-        width: calc(100% -);
+        width: calc(100% - 62px);  /* Adjusted for 12px margin on both sides */
+        margin: 1em 10px;
     }
 
     .links  {
