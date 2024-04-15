@@ -140,6 +140,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 999;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
 }
 
 .nav-normal {

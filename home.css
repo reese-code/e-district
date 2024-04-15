@@ -43,6 +43,10 @@
     .button {
         margin: auto;
     }
+
+    .hero-img {
+        transform: rotate(180deg);
+    }
 }
 
 /* Hero End */
