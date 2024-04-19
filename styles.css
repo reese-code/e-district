@@ -149,8 +149,6 @@ nav {
     flex-direction: row;
 }
 
-
-
 .mobile-bar {
     list-style: none;
     font-size: 40px;
@@ -292,9 +290,9 @@ footer {
 }
 
 .social-media {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 10px;
     padding-top: 20px;
 }
 
@@ -354,6 +352,10 @@ footer {
         align-items: baseline;
         gap: 0px;
     }
+}
+
+.padd-bottom {
+  padding-top: 2px;
 }
 
 /* SLIDER 
