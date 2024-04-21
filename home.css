@@ -183,6 +183,7 @@
 
     .button-container {
         border-bottom: none;
+        margin: auto;
     }
 }
 
