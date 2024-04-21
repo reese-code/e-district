@@ -184,6 +184,8 @@
     .button-container {
         border-bottom: none;
         margin: auto;
+        padding: 0px;
+        width: fit-content;
     }
 }
 
