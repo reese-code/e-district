@@ -203,7 +203,7 @@ nav {
 
 @media only screen and (max-width: 1000px) {
     nav {
-        width: calc(100% - 62px);  /* Adjusted for 12px margin on both sides */
+        width: calc(100% - 64px);  /* Adjusted for 12px margin on both sides */
         margin: 1em 10px;
     }
 
