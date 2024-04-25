@@ -34,7 +34,8 @@
     .hero {
         flex-direction: column;
         padding-top: 0px;
-        gap: 24px
+        gap: 24px;
+        margin: 0px 12px;
     }
 
     .left-hero {

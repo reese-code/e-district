@@ -190,6 +190,7 @@ nav {
     margin: 3px 0;
     border-radius: 10px;
   }
+
 .box {
     height: 1000px;
     width: 100px;
@@ -386,4 +387,10 @@ footer {
 .slick-dots li button::before {
   /* font-size: 6px; */
   font-size: 12px !important;
+}
+
+/* body width */
+
+body {
+  width: 100vw;
 }
