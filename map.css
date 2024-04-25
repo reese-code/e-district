@@ -1,11 +1,12 @@
 h1, h3 {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 h3 {
     max-width: 1000px;
     margin: 50px auto;
+    padding-bottom: 0px;
 }
 
 .map-container {
