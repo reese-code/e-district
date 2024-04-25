@@ -7,7 +7,7 @@
 }
 
 .hero h1 {
-    font-size: 117px;
+    font-size: 90px;
     font-family: "PP Agrandir";
     text-transform: uppercase;
     margin: 0px;
@@ -28,7 +28,7 @@
 
 @media only screen and (max-width: 1000px) {
     .hero h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .hero {
