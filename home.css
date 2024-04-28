@@ -69,7 +69,8 @@
 }
 
 .perk h2 {
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 .perk {
@@ -79,10 +80,25 @@
     text-align: center;
 }
 
+.perk-icon {
+    width: 60px;
+    width: 60px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
 @media only screen and (max-width: 1000px) {
     .perks {
         flex-wrap: wrap;
         margin: 0px 24px 0px 24px
+    }
+
+    .perk-icon {
+        transform: scale(0.5);
+    }
+
+    .perk h2 {
+        margin-top: 0px;
     }
 }
 
@@ -242,4 +258,9 @@
     display: flex;
     gap: 15px;
     justify-content: center;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
 }
