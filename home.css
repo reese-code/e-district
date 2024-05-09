@@ -260,6 +260,11 @@
     justify-content: center;
 }
 
+.quote-slider {
+    min-height: 200px; /* Adjust the height as needed */
+    height: auto; /* Allow the slider to expand vertically if needed */
+}
+
 body {
     width: 100%;
     overflow-x: hidden;
