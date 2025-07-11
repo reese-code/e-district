@@ -1,1 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - E-District</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBD3CD2NKM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FBD3CD2NKM');
+    </script>
+</head>
+<body>
+    <nav id="nav" class="body-width">
+        <div class="nav-normal">
+            <div class="menu" id="menu" onclick='showSidebar()'>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <a href="index.html">
+                <img alt="logo" src="assets/logo.png" class="logo"/>
+            </a>
+            <ul class="links">
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./map.html">map</a></li>
+                <li><a href="./amenities.html">amenities</a></li>
+                <li><a href="./blog.html" class="active">blog</a></li>
+                <li><a href="./contact.html">contact</a></li>
+            </ul>
+            <a href="https://7fvinr5e1xg.typeform.com/to/bxV5G1v6?typeform-source=stately-khapse-67b1ab.netlify.app"><div class="button disapear" >Leasing Application<img src="assets/btn-arrow.png"></div></a>
+        </div>
+        <div class="expanded-nav">
+            <div class="mobile-bar">
+                <a href="./about.html"><div>about</div></a>
+                <a href="./map.html"><div>map</div></a>
+                <a href="./amenities.html"><div>amenities</div></a>
+                <a href="./blog.html"><div>blog</div></a>
+                <a href="./contact.html"><div>contact</div></a>
+            </div>
+            <a href="https://7fvinr5e1xg.typeform.com/to/bxV5G1v6?typeform-source=stately-khapse-67b1ab.netlify.app"><div class="button-visible">Leasing Application<img src="assets/btn-arrow.png"></div></a>
+        </div>
+    </nav>
 
+    <!-- place content below -->
+    
+    <!-- blog hero -->
+    <div class="blog-hero">
+        <div class="blog-hero-content">
+            <h1>E-District Blog</h1>
+            <p>Insights, tips, and updates from the heart of entrepreneurship</p>
+        </div>
+    </div>
+
+    <!-- featured post -->
+    <div class="featured-post-container">
+        <div class="content-featured">
+            <h2>FEATURED POST</h2>
+            <div class="featured-post">
+                <img src="assets/featured-blog-post.jpg" alt="Featured blog post" class="featured-img">
+                <div class="featured-content">
+                    <div class="post-meta">
+                        <span class="post-date">January 15, 2025</span>
+                        <span class="post-category">Business Growth</span>
+                    </div>
+                    <h3>5 Ways E-District Can Accelerate Your Startup's Growth</h3>
+                    <p>Discover how our premium office spaces and business amenities have helped dozens of startups scale from idea to success. From our high-speed fiber internet to our collaborative common areas, learn what makes E-District the perfect launchpad for your business.</p>
+                    <a href="./blog-post-startup-growth.html"><div class="button">Read More<img src="assets/btn-arrow.png"></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blog posts grid -->
+    <div class="blog-posts-container">
+        <div class="posts-grid">
+            <article class="blog-post-card">
+                <img src="assets/blog-networking.jpg" alt="Networking event" class="post-image">
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-date">January 10, 2025</span>
+                        <span class="post-category">Community</span>
+                    </div>
+                    <h3>Building Your Network: E-District's Community Events</h3>
+                    <p>Learn how our monthly networking events and business workshops are creating valuable connections for our tenants.</p>
+                    <a href="./blog-post-networking.html" class="read-more">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-post-card">
+                <img src="assets/blog-productivity.jpg" alt="Productive workspace" class="post-image">
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-date">January 5, 2025</span>
+                        <span class="post-category">Productivity</span>
+                    </div>
+                    <h3>Maximizing Productivity in Your Office Space</h3>
+                    <p>Tips and strategies for creating an efficient workspace that boosts your team's performance and well-being.</p>
+                    <a href="./blog-post-productivity.html" class="read-more">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-post-card">
+                <img src="assets/blog-location.jpg" alt="Salt Lake City location" class="post-image">
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-date">December 28, 2024</span>
+                        <span class="post-category">Location</span>
+                    </div>
+                    <h3>Why North Salt Lake is the Perfect Business Location</h3>
+                    <p>Explore the advantages of our prime location just 9 minutes from downtown Salt Lake City with 4M+ monthly drive-by traffic.</p>
+                    <a href="./blog-post-location.html" class="read-more">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-post-card">
+                <img src="assets/blog-technology.jpg" alt="High-speed internet" class="post-image">
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-date">December 20, 2024</span>
+                        <span class="post-category">Technology</span>
+                    </div>
+                    <h3>The Power of 10Gbps: How Fast Internet Transforms Business</h3>
+                    <p>Discover how our lightning-fast fiber internet infrastructure gives your business the competitive edge it needs.</p>
+                    <a href="./blog-post-technology.html" class="read-more">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-post-card">
+                <img src="assets/blog-success-story.jpg" alt="Success story" class="post-image">
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-date">December 15, 2024</span>
+                        <span class="post-category">Success Stories</span>
+                    </div>
+                    <h3>Tenant Spotlight: How TechCorp Scaled to 50 Employees</h3>
+                    <p>Read about one of our success stories and how E-District's flexible spaces accommodated rapid business growth.</p>
+                    <a href="./blog-post-success-story.html" class="read-more">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-post-card">
+                <img src="assets/blog-amenities.jpg" alt="Office amenities" class="post-image">
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-date">December 8, 2024</span>
+                        <span class="post-category">Amenities</span>
+                    </div>
+                    <h3>Beyond the Basics: Premium Amenities That Make a Difference</h3>
+                    <p>Explore how our conference rooms, common areas, and business services support your daily operations.</p>
+                    <a href="./blog-post-amenities.html" class="read-more">Read More →</a>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- newsletter signup -->
+    <div class="newsletter-container">
+        <div class="newsletter-content">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest business insights and E-District updates</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="button">Subscribe<img src="assets/btn-arrow.png"></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- categories -->
+    <div class="categories-container">
+        <h2>Browse by Category</h2>
+        <div class="categories-grid">
+            <a href="./blog-category-business-growth.html" class="category-card">
+                <img src="assets/category-business-growth.jpg" alt="Business Growth">
+                <h3>Business Growth</h3>
+            </a>
+            <a href="./blog-category-community.html" class="category-card">
+                <img src="assets/category-community.jpg" alt="Community">
+                <h3>Community</h3>
+            </a>
+            <a href="./blog-category-productivity.html" class="category-card">
+                <img src="assets/category-productivity.jpg" alt="Productivity">
+                <h3>Productivity</h3>
+            </a>
+            <a href="./blog-category-success-stories.html" class="category-card">
+                <img src="assets/category-success-stories.jpg" alt="Success Stories">
+                <h3>Success Stories</h3>
+            </a>
+        </div>
+    </div>
+
+    <!-- call to action -->
+    <div class="cta-container">
+        <div class="cta-content">
+            <h2>Ready to Join the E-District Community?</h2>
+            <p>Experience the difference that premium office space and business amenities can make for your company.</p>
+            <a href="https://7fvinr5e1xg.typeform.com/to/bxV5G1v6?typeform-source=stately-khapse-67b1ab.netlify.app"><div class="button">Leasing Application<img src="assets/btn-arrow.png"></div></a>
+        </div>
+    </div>
+
+    <!-- place content above -->
+    <div class="skyline"><img class="skyline-img" src="assets/skyline.png"></div>
+    <footer>
+        <div class="center-links">
+            <ul class="links">
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./map.html">map</a></li>
+                <li><a href="./amenities.html">amenities</a></li>
+                <li><a href="./blog.html">blog</a></li>
+                <li><a href="./contact.html">contact</a></li>
+            </ul>
+        </div>
+        <div class="details">
+            <p>Hours: M-F 9am-5pm</p>
+            <p>(801) 682-9032</p>
+            <a href="mailto:info@edistrict.com"><p>info@edistrict.com</p></a>
+        </div>
+        <div class="social">
+            <p>©2024 E-DISTRICT inc.</p>
+            <p>650 N Main St, North Salt Lake, UT 84054</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/EDistrictUtah/"><img src="assets/u_facebook.png" alt="facebook"></a>
+                 <a href="https://www.tiktok.com/@edistrictoffices?_t=8lUsQlW0Dcc&_r=1"><div class="padd-bottom"><img src="assets/fi_youtube.png" alt="youtube"></div></a>
+                 <a href="https://www.instagram.com/edistrictoffices?igsh=ajYwYXJ0b3EzOWky"> <img src="assets/u_instagram.png" alt="instagram"></a>
+                 <a href="https://twitter.com/EdistrictUtah"><img src="assets/u_twitter-alt.png" alt="twitter"> </a>
+            </div>
+        </div>
+    </footer>
+    <script src="nav.js"></script>
+
+    
+</body>
+</html>
